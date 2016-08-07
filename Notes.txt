@@ -1,0 +1,10 @@
+1) Use a comparator to gauge the hands to find the winner.
+2) Use a HashMap to find out the value of the hands. Just look for matches and the count of each card. For example...
+AAJKK = A=2, J=1, K=2
+So since size equals three, it's either a three of a kind or a two pair. And since the highest value is a 2 and not a 3, it's a pair.
+Likewise if it's size is 4, it's a pair.
+And if it's 2, it's either a full house or a four of a kind.
+3) It's not possible to get a flush and a pairing of any kind, so break up the straight/flush route and matchings route.
+4) Sub out the deck's LinkedList for a Stack.
+5) Look into Enums and an EnumMap
+6) Use a String if no loops and a StringBuilder if not. Also, String Buffer is basically deprecated.
