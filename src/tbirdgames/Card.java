@@ -1,3 +1,4 @@
+//By James Fadeley.
 package tbirdgames;
 
 import java.util.HashMap;
